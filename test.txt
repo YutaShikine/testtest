@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <meta name="description" content="test test test">
+</head>
+<body>
+    <h1>テスト</h1>
+    <h2>リスト</h2>
+    <ul>
+        <li>ul順不同リスト</li>
+        <li>・でリスト分け</li>
+        <li>liとセット</li>
+    </ul>
+    <ol>
+        <li>順番が決まったリスト</li>
+        <li>数字でリスト分け</li>
+        <li>liとセット</li>
+    </ol>
+    
+    <h2>表</h2>
+        <table>
+            <tr>
+                <th>タグ</th>
+                <th>意味</th>
+                <th>なんな中？</th>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>表作る</td>
+                <td>表の全体囲む</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+                <td>１列</td>
+                <td>tableの直下</td>
+            </tr>
+            <tr>
+                <td>th</td>
+                <td>見出し</td>
+                <td>trの中</td>
+            </tr>
+            <tr>
+                <td>td</td>
+                <td>データ</td>
+                <td>trの中</td>
+            </tr>
+        </table>
+
+        <table border="5" bordercolor="red">
+            <tr>
+                <th>属性</th>
+                <th>意味</th>
+                <th>何の中</th>
+            </tr>
+            <tr>
+                <td>border</td>
+                <td>枠線つける</td>
+                <td>table</td>
+            </tr>
+            <tr>
+                <td>bordercolor</td>
+                <td>枠線に色付ける</td>
+                <td>table</td>
+            </tr>
+            <tr bgcolor="blue">
+                <td>bgcolor</td>
+                <td>セルに色付ける</td>
+                <td>table,tr,th,td</td>
+            </tr>
+            <tr>
+                <td>align</td>
+                <td>データを寄せる</td>
+                <td>table,tr,th,td</td>
+            </tr>
+            <tr>
+                <td align="left">left</td>
+                <td align="center">center</td>
+                <td align="right">right</td>
+            </tr>
+            <tr>
+                <td>rowspan</td>
+                <td>セルを縦に結合</td>
+                <td>th,td</td>
+            </tr>
+            <tr>
+                <td rowspan="2">こんな感じ</td>
+                <td>aaa</td>
+                <td>aaa</td>
+            </tr>
+            <tr>
+                <td>aaa</td>
+                <td>aaa</td>
+            </tr>
+            <tr>
+                <td>colspan</td>
+                <td>セルを横に結合</td>
+                <td>th,th</td>
+            </tr>
+            <tr>
+                <td colspan="3">こんな感じ</td>
+            </tr>
+        </table>
+
+    
+</body>
+</html>
